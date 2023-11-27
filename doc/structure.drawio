@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2023-11-19T08:08:37.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="d2JXFDFaEHH1VJvm9yAN" version="22.1.2" type="device">
+  <diagram name="Page-1" id="8NQKQLPwKNeTstGFi3XP">
+    <mxGraphModel dx="1098" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-1" value="Instruction Fetch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-2" value="Instrucction Decode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-3" value="ALU0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-4" value="Arithmetic Registers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-5" value="Far Registers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-6" value="Load Store Unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IkJLr_mQiHyRIqAOa4CK-7" value="L0 Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="460" width="385" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
