@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "hediet.vscode-drawio",
+        "github.copilot",
+        "github.copilot-chat",
+        "asuka.insertnumbers",
+        "tamasfe.even-better-toml",
+        "streetsidesoftware.code-spell-checker",
+        "serayuzgur.crates",
+        "ms-vscode-remote.remote-containers",
+        "github.vscode-github-actions",
+        "rust-lang.rust-analyzer",
+        "mshr-h.veriloghdl"
+    ]
+}

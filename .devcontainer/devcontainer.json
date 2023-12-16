@@ -4,8 +4,28 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
-    // "runArgs": ["-v", "/run/host-services/ssh-auth.sock:/ssh-agent", "-e", "SSH_AUTH_SOCK=/ssh-agent"],
-    "forwardPorts": [8000]
+    "runArgs": ["-v", "/run/host-services/ssh-auth.sock:/ssh-agent", "-e", "SSH_AUTH_SOCK=/ssh-agent"],
+    "forwardPorts": [
+        8000
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Asuka.insertnumbers",
+                "GitHub.copilot-chat",
+                "GitHub.copilot",
+                "github.vscode-github-actions",
+                "hediet.vscode-drawio",
+                "ms-vscode-remote.remote-containers",
+                "rust-lang.rust-analyzer",
+                "serayuzgur.crates",
+                "streetsidesoftware.code-spell-checker",
+                "tamasfe.even-better-toml",
+                "mshr-h.veriloghdl",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
     // "settings": { 
     //     "terminal.integrated.shell.linux": "/bin/bash"
     // },
