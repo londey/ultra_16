@@ -1,5 +1,5 @@
 [package]
-name = "ultra_16"
+name = "ultra_16_gs"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,4 +8,3 @@ edition = "2021"
 [dependencies]
 rust-hdl = { version = "0.46.0", features = ["fpga"] }
 rust-hdl-bsp-alchitry-cu = "0.46.0"
-ultra_16_gs = { path = "../ultra_16_gs" }

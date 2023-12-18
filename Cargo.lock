@@ -469,6 +469,15 @@ version = "0.1.0"
 dependencies = [
  "rust-hdl",
  "rust-hdl-bsp-alchitry-cu",
+ "ultra_16_gs",
+]
+
+[[package]]
+name = "ultra_16_gs"
+version = "0.1.0"
+dependencies = [
+ "rust-hdl",
+ "rust-hdl-bsp-alchitry-cu",
 ]
 
 [[package]]

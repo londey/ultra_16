@@ -1,9 +1,60 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="8NQKQLPwKNeTstGFi3XP">
-        <mxGraphModel dx="1495" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2345" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="VGA Signal Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Sprit Row Block 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="90" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Background 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Background 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Sprit Row Block N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="190" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Sprit Depth Sorter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="150" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Sprite Color Lookup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="150" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Layer Combiner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="230" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Background 0 Color Lookup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="310" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Background 1 Color Lookup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="390" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Color Transform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="230" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Sprite Row Fetcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="150" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Background Row Fetcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="350" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Sprit Block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-135" y="150" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Sprite RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-135" y="70" width="70" height="60" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
