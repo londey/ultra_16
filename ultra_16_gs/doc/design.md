@@ -12,8 +12,8 @@ It produces a 12-bit VGA signal that is fed through a resistor ladder to produce
 
 ### Context
 
-![Context Diagram](./context.drawio.svg)
+![Context Diagram](./images/context.drawio.svg)
 
 #### Prototype Hardware
 
-![Hardware](./hardware.drawio.svg)
+![Hardware](./images/hardware.drawio.svg)

@@ -1,4 +1,6 @@
 #![cfg_attr(not(debug_assertions), deny(warnings))]
+#![doc = include_str!("../doc/design.md")]
+
 
 use rust_hdl::prelude::*;
 use rust_hdl_bsp_alchitry_cu::pins::CLOCK_SPEED_100MHZ;
