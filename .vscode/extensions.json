@@ -10,6 +10,7 @@
         "ms-vscode-remote.remote-containers",
         "github.vscode-github-actions",
         "rust-lang.rust-analyzer",
-        "mshr-h.veriloghdl"
+        "mshr-h.veriloghdl",
+        "amykyta3.systemrdl"
     ]
 }

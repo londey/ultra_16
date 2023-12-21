@@ -23,7 +23,8 @@
                 "tamasfe.even-better-toml",
                 "mshr-h.veriloghdl",
                 "ms-azuretools.vscode-docker",
-                "vadimcn.vscode-lldb"
+                "vadimcn.vscode-lldb",
+                "amykyta3.systemrdl"
             ]
         }
     }

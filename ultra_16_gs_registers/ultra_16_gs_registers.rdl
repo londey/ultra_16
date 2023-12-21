@@ -1,0 +1,67 @@
+addrmap ultra_16_gs {
+    name = "Ultra 16 Graphics Synthesizer Control Registers";
+    desc = "This describes the Ultra 16 Graphics Synthesizer Control Registers. Each register is 16-bits wide.
+    Registers are set via SPI with an 8-bit register addressed followed by a 16-bit register value.
+    The register address is made up of a 4-bit register bank corresponding to a functional unit and and 4-bit register offset.
+    Additional 16-bit register values can be sent in the same transaction to the same register address to assist in data upload.";
+    
+    // 0x00 Scratch register to test SPI communication
+    0x00: {
+        name = "Scratch Register";
+        desc = "Scratch register to test SPI communication";
+        access = RW;
+        reset = 0x0000;
+    };
+
+    // Set tile RAM upload corsor to a 16-bit tile row aligned address within the tile RAM
+    0x10: {
+        name = "Tile RAM Upload Cursor";
+        desc = "Set tile RAM upload corsor to a 16-bit tile row aligned address within the tile RAM";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Upload 16-bit tile data to the tile RAM at the current upload cursor address and increment the upload cursor by 16-bits
+    0x11: {
+        name = "Tile RAM Upload Data";
+        desc = "Upload 16-bit tile data to the tile RAM at the current upload cursor address and increment the upload cursor by 16-bits";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Set tile mask RAM upload corsor to a 16-bit tile row aligned address within the tile mask RAM
+    0x12: {
+        name = "Tile Mask RAM Upload Cursor";
+        desc = "Set tile mask RAM upload corsor to a 16-bit tile row aligned address within the tile mask RAM";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Upload 16-bit tile mask data to the tile mask RAM at the current upload cursor address and increment the upload cursor by 16-bits
+    0x13: {
+        name = "Tile Mask RAM Upload Data";
+        desc = "Upload 16-bit tile mask data to the tile mask RAM at the current upload cursor address and increment the upload cursor by 16-bits";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Set sprit RAM upload corsor to a 16-bit sprite row aligned address within the sprite RAM
+    0x14: {
+        name = "Sprite RAM Upload Cursor";
+        desc = "Set sprit RAM upload corsor to a 16-bit sprite row aligned address within the sprite RAM";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Upload 16-bit sprite data to the sprite RAM at the current upload cursor address and increment the upload cursor by 16-bits
+    0x15: {
+        name = "Sprite RAM Upload Data";
+        desc = "Upload 16-bit sprite data to the sprite RAM at the current upload cursor address and increment the upload cursor by 16-bits";
+        access = WO;
+        reset = 0x0000;
+    };
+
+    // Set palette RAM upload corsor to a 16-bit palette color aligned address within the palette RAM
+    
+
+};
